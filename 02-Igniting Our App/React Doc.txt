@@ -1,0 +1,15 @@
+1.package.json is a configuration for npm.
+2.there is two dependancies 
+	i.dev dependancies:- this is use for when we are developing our App 
+	ii.normal dependacies:- this is use for when manage the code in  production
+
+3.  package-lock.json:- records the exact version of each installed package which allows you to re-install them. Future installs will be able to build an identical dependency tree.
+    package.json:-  records the minimum version you app needs. If you update the versions of a particular package, the change is not going to be reflected here.
+
+4.  npm command is use for install the packages in project and npx use for execute the project.
+ 		example: "npm parcel index.html"  and "npm install react react-dom"
+
+5.if we want to our react App should compactible with older version of browser so we use browsersList in package.json
+ example:-	"browsersList":[
+		"last 2 versions"
+		]
