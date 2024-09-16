@@ -1,0 +1,11 @@
+1.Running Project Scripts: When we want to run our project, we typically rely on scripts defined in the package.json file. For convenience, we can create specific scripts such as start and build to streamline common tasks.
+	--> Start Script:- The npm command has a built-in keyword start, which allows us to run the start script without needing to specify the full command. Instead of typing "npm run start", we can simply use "npm start" to start the project.
+	--> Build Script:- Similarly, we can define a build script in package.json to handle production builds. While npm doesn't have a shortcut for build, you can still run it easily using "npm run build"
+
+2.JSX is not html.jsx is html like syntax.
+3. -JSX(Javascript extension) is html like syntax but javascript engine does not understand JSX it understand only  ECMAScript.
+   -there is babel which convert these JSX to React.createElement for understand to React.
+   -babel is a javascript complier where it convert JSX code to react.creatElement.
+   -Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments.
+   -if you have to give attribute to JSX then there is camel case to use.
+ HW(home work):-various attribute of various tag(imag,achar tag,..)
